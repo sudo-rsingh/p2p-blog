@@ -1,0 +1,22 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <title>My P2P Page</title>
+
+      <!-- Include PeerJS -->
+      <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+
+      <!-- Include P2P Storage (use the path to your p2p-storage.js file) -->
+      <script src="./p2p-storage.js"></script>
+  </head>
+  <body>
+      <h1>Check out my content!</h1>
+
+      <!-- Replace YOUR_PEER_ID and FILE_NAME -->
+      <img data-p2p-src="algebra-storage-host:photo.jpg" alt="My Photo">
+
+      <video data-p2p-src="algebra-storage-host:video.mp4" controls></video>
+
+      <div data-p2p-src="algebra-storage-host:blog-post.txt"></div>
+  </body>
+  </html>
